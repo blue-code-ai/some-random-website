@@ -1,0 +1,100 @@
+header{
+    border: 5px dotted rgb(48, 41, 187);
+    background-color: rgba(49, 228, 225, 0.438);
+    height: 45px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+body{
+    background-image: url(background\ img.png);
+    display: flow-root;
+}
+
+#img1{
+    float: left;
+    height: 45px;
+}
+
+#h11{
+    float: left;
+    margin-top: 5px;
+    margin-right: auto;
+    text-shadow: black;
+}
+
+#home{
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+#login{
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+#signup{
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.btn {
+    background-color: rgba(184, 54, 220, 0.587);
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(163, 47, 196);
+}
+
+section{
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgba(89, 160, 160, 0.333);
+}
+
+#intro h2{
+    text-shadow: 2px 2px 5px hsl(0, 97%, 52%), -2px -2px 5px hsl(302, 82%, 44%);
+}
+
+#cta{
+    padding: 20px;
+}
+
+#cta h2{
+    text-shadow: 2px 2px 5px hsl(135, 88%, 50%),-2px -2px 5px hsl(59, 91%, 50%);
+}
+
+#features {
+    background-color: #2ebbe65b;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#features h2 {
+    text-align: center;
+    color: #333;
+}
+
+#features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#features li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff9c;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#features li strong {
+    color: #ff6347;
+}
+
+footer{
+    padding: 20px;
+    background-color:  #2ebbe65b;
+}
